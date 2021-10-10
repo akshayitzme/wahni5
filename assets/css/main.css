@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  transition: all ease-in-out 0.3s;
+}
+.bgi-1{
+    background-image: url(../Images/itblue-blob.svg);
+    background-size: cover;
+    background-position: inherit;
+}
+.bgi-2{
+    background-image: url(../Images/hill-bg.jpg);
+    background-size: cover;
+    background-position: inherit;
+}
+.heroImg{
+    display: flex;
+    justify-content: flex-end;
+}
+.bg-1{
+    background-color: #175a74;
+}
+.bg-2{
+    background-color: #328c8c;
+}
+.themeColor{
+    color: #175a74;
+}
+.clr-1{
+    color: #175a74;
+}
