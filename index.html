@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="./assets/css/tailwind.min.css">
     <link rel="stylesheet" href="./assets/css/animate.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/countdown.css">
+    <script src="/assets/js/countdown.js"></script>
+
     <title>Wahni Green Technologies</title>
 </head>
 
@@ -76,8 +79,18 @@
         <div class="flex items-end">
             <img class="md:w-1/3 md:absolute bottom-0 right-0" src={heroImg} alt="" />
         </div>
+        <div class="fab countdown">
+            <a href="https://wahni.com/registration" target="_blank">
+              <span class="text-light">
+                Webinar Registration
+              </span>
+              <div class="countdownContainer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M17 3h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1h2v2h6V1h2v2zm3 8H4v8h16v-8zm-5-6H9v2H7V5H4v4h16V5h-3v2h-2V5zm-9 8h2v2H6v-2zm5 0h2v2h-2v-2zm5 0h2v2h-2v-2z" fill="rgba(255,255,255,1)"/></svg>
+                &nbsp;<div id="countdown" class="anim-blink"></div>
+              </div>
+            </a>
+        </div>
     </div>
-
 </body>
 
 </html>
